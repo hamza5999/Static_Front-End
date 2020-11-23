@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    height: 47rem;
+    top: 100px;
+}
+.sitemap
+{
+    position: absolute;
+    left: 150px;
+}
+.menu
+{
+    background-color: #a80707;
+    color: azure;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+.copyright-bar
+{
+    background-color: #a80707;
+    width: auto;
+    height: 40px;
+    padding-left: 550px;
+    padding-top: 15px;
+}
+.no-copyrights
+{
+    color: azure;
+    font-size: large;
+}
+.lower-bar
+{
+    background-color: #ad1f1f;
+    height: 120px;
+    display: flex;
+    flex: 2;
+}
+.menu ul li
+{
+    display: inline;
+}
+.menu ul li a
+{
+    color: azure;
+    text-decoration: none;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menu-items
+{
+    text-align: right;
+    padding-top: 26px;
+}
+h1,h2
+{
+    color: #a80707;
+}
+p
+{
+    color: #a80707;
+}
+.menu-items .website-name a
+{
+    font-size: 350%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.website-name a
+{
+    line-height: 20px;
+}
+.account-links li a
+{
+    color: azure;
+    text-decoration: none;
+}
+.account-links li 
+{
+    list-style-type: none;
+}
+.account-links h3
+{
+    color: azure;
+    padding-left: 35px;
+    padding-top: 10px;
+    text-decoration: underline;
+    font-size: larger;
+}
+ul
+{
+    margin-left: 40px;
+}
+.account-links
+{
+    flex: 1;   
+}
+.contact-lists
+{
+    flex: 1;
+}
+.contact-lists li
+{
+    color: azure;
+    text-decoration: none;
+}
+.menu-items li a:hover
+{
+    background-color: white;
+    border: 3px solid #a80707;
+    color: #a80707;
+}
+.menu-items .website-name a:hover
+{
+    background-color: #a80707;
+    color: white;
+}
